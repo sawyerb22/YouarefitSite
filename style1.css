@@ -1,0 +1,189 @@
+html
+{
+    margin:0;
+    padding:0;
+}
+
+p, li{
+    font-size:1.3em;
+    line-height: 1.4em;
+    margin-bottom:0.8em;
+}
+a {color: #29abdd; text-decoration: none;}
+a:hover , a:active {text-decoration: underline;}
+
+.clear {clear: both;}
+
+#headtag
+{color:red; font-weight:bold}
+
+
+
+h1
+{
+    font-size: 2.5em;
+    margin-bottom: 0.8em;
+
+}
+
+h2
+{font-size:1.5em; text-transform:uppercase; margin-bottom:0.8em; text-align:center;}
+
+
+h3
+{font-size:1.6em;
+text-transform: uppercase;
+font-style: italic;
+letter-spacing: 2px;
+background: #29abdd;
+color: white;
+padding: 5px;
+margin-bottom: 0.5em;
+text-align: center;}
+
+div#page-wrap
+{
+    width:850px;
+    margin:0 auto;
+    border:2px solid white;
+    background-color:silver;
+
+}
+
+body
+{
+    font-family: Helvetica, sans-serif;
+    font-size:62.5%;
+    background: url(images/body.png) repeat-x top #023a60 ;
+
+
+}
+
+ul#nav
+{
+    height:260px;
+    background: url(images/header2.jpg) no-repeat;
+    list-style: none;
+    border-bottom:2px solid blue;
+}
+
+ul#nav li a
+{
+    display:block;
+    width:120px;
+    float:left;
+    margin-top:217px;
+    text-decoration: Highlight;
+    color:white;
+    font-weight:bold;
+
+}
+
+ul#nav a:hover, ul#nav a:active
+{
+    color:#36b2e0;
+}
+
+div#main-content
+{
+padding: 10px 0 50px 15px;
+}
+
+div#motto
+{
+    background: url(images/carbon.png) center repeat-y;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-size:1.3em;
+    text-align:center;
+    line-height:1.6em;
+    color:#1da5d9;
+    padding:15px 20px 15px 20px;
+    margin:5px;
+
+}
+
+div#main-content div#left-col
+{
+    float:left;
+    width:220px;
+}
+
+ a:hover, ul#nav a:active
+{
+    color:#36b2e0;
+}
+
+div#main-content div#left-col div#quick-jumps
+{
+    width:200px;
+    float:left;
+    margin-right: 15px;
+    background: url(images/supps.jpg) bottom  no-repeat;
+    padding-bottom:45px;
+
+}
+div#main-content div#left-col div#quick-jumps p
+{
+    text-transform: uppercase;
+    font-weight:bold;
+    letter-spacing: 1px;
+
+}
+div#main-content div#left-col div#quick-jumps p span
+{
+    color:#36b2e0;
+}
+
+
+div#main-content div#right-col
+{
+
+    float:right;
+    width: 260px;
+    border-top: 8px solid #1da5d9;
+    padding: 15px 8px 0 15px;
+    margin-top:40px;
+
+
+}
+div#main-content div#right-col p
+{
+    font-size: 100%;
+    text-align:center;
+    font-weight:bold;
+    color:white;
+
+}
+
+
+div#sidebar
+{
+    width:255px;
+    float:right;
+  background: url(images/side.png) repeat-y right #212121;
+
+}
+div#main-content div#left-col div#quick-jumps a
+{
+    color:#1da5d9;
+
+
+
+
+}
+
+
+div#footer
+{
+    background: url(images/hover.jpg)repeat-x;
+    color:white;
+    padding: 10px 0 10px 0;
+    text-align:center;
+    border-top:2px solid blue;
+    font-weight:bold;
+}
+
+
+
+
